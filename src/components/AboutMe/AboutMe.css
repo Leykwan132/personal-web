@@ -1,0 +1,23 @@
+.profilePic {
+  padding-right: 2%;
+  padding-bottom: 20px;
+}
+
+.personalInfo {
+  padding-bottom: 20px;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.aboutContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  align-items: center;
+  padding-top: 20px;
+}
