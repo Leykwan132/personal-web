@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Typography, Popover } from "antd";
+import { Image, Typography, Popover, Divider } from "antd";
 import MyPhoto from "../../images/picture.jpeg";
 import "./AboutMe.css";
 import QueueAnim from "rc-queue-anim";
@@ -65,6 +65,7 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
+      <Divider className="divider" />
     </QueueAnim>
   );
 };
