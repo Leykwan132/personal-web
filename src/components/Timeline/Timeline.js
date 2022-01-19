@@ -46,8 +46,7 @@ export const Timeline = () => {
       title: "Aug 2020",
       cardTitle: "New start at UW-Madison.",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Class of 2024, B.S. in Data Science.",
       media: {
         type: "IMAGE",
         source: {
@@ -56,92 +55,74 @@ export const Timeline = () => {
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "Dec 2021",
+      cardTitle: "1st local Mobile Application with expo.",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Implemented a food ordering app using React Native.",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
-      url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      title: "Jan 2022",
+      cardTitle: "Personal website development.",
+      url: "https://github.com/Leykwan132/personal-web",
+      cardSubtitle: "Implemented this website using React JS.",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "...",
+      cardTitle: "Coming soon...",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Coming soon...",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "...",
+      cardTitle: "Coming soon...",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Coming soon...",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "...",
+      cardTitle: "Coming soon...",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Coming soon...",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
     {
-      title: "May 1940",
-      cardTitle: "Dunkirk",
+      title: "...",
+      cardTitle: "Coming soon...",
       url: "http://www.history.com",
-      cardSubtitle:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
-      cardDetailedText:
-        "Men of the British Expeditionary Force (BEF) wade out to..",
+      cardSubtitle: "Coming soon...",
       media: {
         type: "IMAGE",
         source: {
-          url: "http://someurl/image.jpg",
+          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
         },
       },
     },
