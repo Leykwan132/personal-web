@@ -31,3 +31,7 @@
   font-size: unset;
   height: 3.5rem;
 }
+
+.site-page-header-ghost-wrapper {
+  background-color: #f5f5f5;
+}

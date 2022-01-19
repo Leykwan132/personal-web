@@ -1,18 +1,18 @@
 import "./App.css";
 import NavBar from "./components/Navbar/NavBar";
-import { BackTop } from "antd";
+import { BackTop, Divider } from "antd";
 import { AboutMe } from "./components/AboutMe/AboutMe";
-import ParticlesBg from "particles-bg";
-import { Divider } from "antd";
+import { Timeline } from "./components/Timeline/Timeline";
+import { PageBackground } from "./components/PageBackground/PageBackground";
 
 const App = () => {
   return (
     <div className="App">
       <BackTop />
       <NavBar />
+      <PageBackground />
       <AboutMe />
-      {/* <Skills /> */}
-      <ParticlesBg type="polygon" bg={true} />
+      <Timeline />
     </div>
   );
 };

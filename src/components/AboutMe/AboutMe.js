@@ -3,6 +3,7 @@ import { Image, Typography, Popover, Divider } from "antd";
 import MyPhoto from "../../images/picture.jpeg";
 import "./AboutMe.css";
 import QueueAnim from "rc-queue-anim";
+import { Fade } from "react-awesome-reveal";
 
 const contentName = (
   <div>
@@ -22,13 +23,13 @@ const contentMajor = (
 export const AboutMe = () => {
   const { Paragraph, Text, Title } = Typography;
   return (
-    <QueueAnim delay={400} className="queue-simple">
-      <div key="a" className="title">
+    <Fade>
+      <div className="title">
         <Typography>
           <Title>Me.</Title>
         </Typography>
       </div>
-      <div key="a" className="aboutContainer">
+      <div className="aboutContainer">
         <div className="profilePic">
           <Image style={{ borderRadius: "13%" }} width={400} src={MyPhoto} />
         </div>
@@ -44,7 +45,7 @@ export const AboutMe = () => {
                 </Popover>
               </Paragraph>
               <Paragraph strong>
-                I'm{" "}
+                I'm a{" "}
                 <Popover content={contentOccu} title="Software Dev.">
                   <Text className="clickable" code>
                     Software Dev.
@@ -65,7 +66,7 @@ export const AboutMe = () => {
           </div>
         </div>
       </div>
-      <Divider className="divider" />
-    </QueueAnim>
+      <Divider />
+    </Fade>
   );
 };

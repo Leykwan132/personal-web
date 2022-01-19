@@ -13,10 +13,14 @@
     "rc-queue-anim": "^2.0.0",
     "rc-tween-one": "^3.0.3",
     "react": "^17.0.2",
+    "react-awesome-reveal": "^3.8.1",
+    "react-chrono": "^1.13.1",
     "react-dom": "^17.0.2",
     "react-redux": "^7.2.6",
     "react-rounded-image": "^2.0.13",
     "react-scripts": "^5.0.0",
+    "react-tsparticles": "^1.39.0",
+    "react-type-animation": "^1.1.2",
     "redux": "^4.1.2",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.4.1",
@@ -24,7 +28,7 @@
     "tachyons": "^4.12.0"
   },
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"

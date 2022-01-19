@@ -20,7 +20,7 @@ const NavBar = () => {
   return (
     <div>
       <PageHeader
-        className="site-page-header"
+        className="site-page-header-ghost-wrapper"
         title="Ley Kwan Choo"
         subTitle="Madison, WI"
         extra={[
