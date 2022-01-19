@@ -1,8 +1,8 @@
 import React from "react";
-import { Typography, Divider } from "antd";
+import { Image, Typography, Divider } from "antd";
 import "./Skills.css";
 import { Fade } from "react-awesome-reveal";
-import BubbleUI from "react-bubble-ui";
+import MyPhoto from "../../images/skills.png";
 
 export const Skills = () => {
   const options = {
@@ -27,12 +27,7 @@ export const Skills = () => {
           <Title>Skills.</Title>
         </Typography>
       </div>
-      <BubbleUI options={options} className="myBubbleUI">
-        <div className="child">
-          <p>123</p>
-        </div>
-      </BubbleUI>
-
+      <Image width={700} src={MyPhoto} preview={false} />
       <Divider />
     </Fade>
   );
