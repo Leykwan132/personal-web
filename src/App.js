@@ -13,6 +13,7 @@ const App = () => {
       <PageBackground />
       <AboutMe />
       <Timeline />
+      <AboutMe />
     </div>
   );
 };
