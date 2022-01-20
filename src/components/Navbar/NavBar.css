@@ -19,7 +19,7 @@
 
 /* Color of the navbar AFTER scroll */
 .navbar-scrolled {
-  background-color: #fff;
+  background: rgb(216, 216, 215);
 }
 
 /* An optional height of the navbar AFTER scroll */

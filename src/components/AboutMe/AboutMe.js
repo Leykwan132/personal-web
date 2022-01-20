@@ -24,11 +24,9 @@ export const AboutMe = () => {
   const { Paragraph, Text, Title } = Typography;
   return (
     <Fade>
-      <div className="title">
-        <Typography>
-          <Title>Me.</Title>
-        </Typography>
-      </div>
+      <Typography className="about-title">
+        <Title>Me.</Title>
+      </Typography>
       <div className="aboutContainer">
         <div className="profilePic">
           <Image style={{ borderRadius: "13%" }} width={400} src={MyPhoto} />

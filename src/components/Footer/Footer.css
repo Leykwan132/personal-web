@@ -1,0 +1,144 @@
+.footer-container {
+  background: rgb(216, 216, 215);
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 2.5rem 1rem;
+  margin-top: 2rem;
+}
+
+.footer-2-container {
+  width: 90%;
+  position: relative;
+}
+
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.logo-3-container {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: auto;
+  width: 25%;
+}
+
+.list-3 {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  width: 100%;
+  min-width: 16rem;
+  justify-content: space-evenly;
+  padding: 1rem 0px;
+  border-radius: 3px;
+  height: 100%;
+}
+
+.logo-1 {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+
+.link-1 {
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+}
+
+.image-1 {
+  width: 23px;
+  height: 23px;
+  margin-bottom: 0px;
+  margin-right: 0.25rem;
+}
+
+.love-line-container {
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.love-line {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin: 0px 0.25rem;
+}
+
+.love-image {
+  height: 16px;
+  width: 16px;
+  margin: 0px 0.25rem;
+}
+
+.powered-container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.powered {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin: 0px 0.25rem;
+}
+
+.react-container {
+  text-decoration: none;
+  display: flex;
+  flex-direction: row;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 0.1rem;
+  margin-left: 0.25rem;
+}
+
+.react-text {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin: 0px 0.25rem;
+}
+
+.license-container {
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  padding: 1rem;
+  margin: 0px auto;
+  height: 100%;
+  font-size: 0.5rem;
+}
+
+.year-2022 {
+  display: block;
+  white-space: nowrap;
+  font-size: 0.9rem;
+  margin: 0px 0.25rem;
+}

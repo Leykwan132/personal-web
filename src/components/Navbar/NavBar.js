@@ -19,18 +19,13 @@ const menu = (
 const NavBar = () => {
   return (
     <div>
-      <PageHeader
-        className="site-page-header-ghost-wrapper"
-        title="Ley Kwan Choo"
-        subTitle="Madison, WI"
-        extra={[
-          <Affix offsetTop={10}>
-            <Dropdown overlay={menu} placement="bottomLeft" arrow>
-              <Button icon={<UnorderedListOutlined />}></Button>
-            </Dropdown>
-          </Affix>,
-        ]}
-      />
+      <Affix>
+        <PageHeader
+          className="site-page-header-ghost-wrapper"
+          title="Ley Kwan Choo"
+          subTitle="Madison, WI"
+        />
+      </Affix>
     </div>
   );
 };

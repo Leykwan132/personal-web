@@ -131,7 +131,7 @@ export const Timeline = () => {
   return (
     <div>
       <Fade>
-        <Typography className="timeline-title">
+        <Typography>
           <Title>Timeline.</Title>
         </Typography>
         <div style={{ width: "auto", height: "450px" }}>
