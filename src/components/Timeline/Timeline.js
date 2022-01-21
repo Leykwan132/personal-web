@@ -1,6 +1,9 @@
 import React from "react";
 import { Image, Typography, Popover, Divider } from "antd";
 import MyPhoto from "../../images/picture.jpeg";
+import Web from "../../images/Web.png";
+import Mobile from "../../images/Mobile.jpg";
+
 import { Chrono } from "react-chrono";
 import { Fade } from "react-awesome-reveal";
 
@@ -57,12 +60,12 @@ export const Timeline = () => {
     {
       title: "Dec 2021",
       cardTitle: "1st local Mobile Application with expo.",
-      url: "http://www.history.com",
+      url: "https://github.com/Leykwan132/MealsToGo",
       cardSubtitle: "Implemented a food ordering app using React Native.",
       media: {
         type: "IMAGE",
         source: {
-          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
+          url: Mobile,
         },
       },
     },
@@ -74,7 +77,7 @@ export const Timeline = () => {
       media: {
         type: "IMAGE",
         source: {
-          url: "https://www.discoveryourselfwellness.com/wp-content/uploads/2021/06/Coming-Soon-Image.jpg",
+          url: Web,
         },
       },
     },
