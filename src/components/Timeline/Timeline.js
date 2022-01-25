@@ -2,6 +2,8 @@ import React from "react";
 import { Image, Typography, Popover, Divider } from "antd";
 import MyPhoto from "../../images/picture.jpeg";
 import Web from "../../images/Web.png";
+import Face from "../../images/Face.png";
+
 import Mobile from "../../images/Mobile.jpg";
 
 import { Chrono } from "react-chrono";
@@ -54,6 +56,18 @@ export const Timeline = () => {
         type: "IMAGE",
         source: {
           url: "https://bloximages.chicago2.vip.townnews.com/madison.com/content/tncms/assets/v3/editorial/f/01/f01e4fdd-4475-5819-98c0-4e306a1942bd/5f74dc0bb2f76.image.jpg?resize=1200%2C800",
+        },
+      },
+    },
+    {
+      title: "Dec 2021",
+      cardTitle: "AI Face Detection webpage.",
+      url: "https://github.com/Leykwan132/recall-project",
+      cardSubtitle: "Implemention of Face Detection API on a webpage.",
+      media: {
+        type: "IMAGE",
+        source: {
+          url: Face,
         },
       },
     },
